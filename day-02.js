@@ -48,11 +48,16 @@ let lastElement = numberArr.slice(-1);
 
 let indexToRemove = 3;
 let removeIndex = numberArr.slice(0, indexToRemove).concat(numberArr.slice(indexToRemove + 1));
-console.log(removeIndex);
+//console.log(removeIndex);
 
 //5.Processing subsets of data
 
 let paragraph = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
 
 let subSet = paragraph.slice(0,100);
-console.log(subSet);
+//console.log(subSet);
+
+//substring() : this method same as the slice(), with only differnce being that it can't accept only negative values
+
+let substring = paragraph.substring(0, 10);
+console.log(substring);
