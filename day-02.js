@@ -60,4 +60,20 @@ let subSet = paragraph.slice(0,100);
 //substring() : this method same as the slice(), with only differnce being that it can't accept only negative values
 
 let substring = paragraph.substring(0, 10);
-console.log(substring);
+// console.log(substring);
+
+//substr(): extracts parts of a string beginning at the character of the specified position, and returns the specified number of characters.
+
+// It has two parameters (start, length)
+// 1. start - this is required. This is the starting position. Remember that the first character is 0.
+// 2. length - optional. The number of characters to extract after the starting position. If empty,
+// then it displays all of the characters after the starting position.
+
+let strings = "This is the end of week one"
+let stringAns = strings.substr(-1);
+console.log(stringAns);
+
+//1. i need out only?
+// strings.substr(-3);
+//2. print last single letter?
+// string.sbstr(-1);
