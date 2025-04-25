@@ -61,11 +61,14 @@ let substring = paragraph.substring(0, 10);
 // 2. length - optional. The number of characters to extract after the starting position. If empty,
 // then it displays all of the characters after the starting position.
 
-let strings = "This is the end of week one"
-let stringAns = strings.substr(3,6);
+let strings = "Now it's my turn to try it out"
+let stringAns = strings.substr(0,7);
 console.log(stringAns);
 
 //1. i need out only?
-// strings.substr(-3);
+//  strings.substr(-3);
 //2. print last single letter?
 // string.sbstr(-1);
+//3.So in the above string, start with the letter "m" of my and extract all characters up until the "r" in try.
+//strings.substr(9,13);
+// 4. Now start at 0 and extract all of the characters up until the "s" in the word, it's (this means stopping on, and including, the apostrophe).

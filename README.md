@@ -4,14 +4,14 @@
 * store them in an array and return the array,
 * it does not modify original array.
 
-## 1) Day-01 split():
+## 1) Day-01:- split():
 
  `string.split(separator, limit)`
 
     1) separator: Specifies the character, string, or regular expression to use for splitting the string. If omitted, the method returns an array with the original string as the only element.
     2) limit:(Optional) A positive integer that limits the number of substrings in the resulting array.
 
-## 2) Day-02 slice():
+## 2) Day-02:- slice():
 
 
    * The slice() method returns the selected elements in an array, as a new array object. It "slices" out what you tell it to.The slice() method has two parameters (start, end), both optional.
@@ -21,7 +21,7 @@
    2) End - An integer. This determines where to end the selection. This is not included in the new
    array object. This is not inclusive (the new array object does not include the end argument).
   
-## 3) Day-03 slice(), substring(), substr():
+## 3) Day-03:- slice(), substring(), substr():
 
   * slice()
    String method:
@@ -30,6 +30,14 @@
    Remember that it has two parameters (start, end). These are the numeric positions starting with 0.
 
   * substring() is the exact same as slice(), with the only difference being that it can't accept negative values.
+
+## 4) Day-04:- reverse() and join():
+
+ * The reverse() method reverses the order of an array. It has no parameters, it just simply reverses.
+
+
+
+
 
 
 
