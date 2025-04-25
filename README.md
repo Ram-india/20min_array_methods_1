@@ -34,6 +34,35 @@
 ## 4) Day-04:- reverse() and join():
 
  * The reverse() method reverses the order of an array. It has no parameters, it just simply reverses.
+ * The join() method joins the elements of an array into a string, and returns a string.
+
+## 5) Day-05:- shift(), unshift(), pop(), push():
+
+ * **Remember, the shifts manipulate the front of arrays. Try to remember this with this phrase,
+      "Everyone likes to work first shift!" Cause that's true right?
+
+ * shift() and unshift(): The shift() method removes the first array element and "shifts" all of the other elements to a lower index.
+ * The pop() method returns the array element that is "popped off" the end of the array.
+ * If you wanted to add it back just use push():
+
+ ## 6) Day-06:- charAt(), indexOf(), lastIndexOf():
+
+ * The charAt() method returns the character at a specified index of a string.
+
+ * It has one parameter, (index) So our parameter is an index position, and it returns the letter in that position. Just remember this:
+   What position is such-and-such character at (char at)?
+
+## 7) Day-07:-indexOf();
+   position of a value.
+   Now where charAt() gives us the value of the position we pass as an argument, indexOf() gives us the
+   In one instance we are getting the character at, and the other we are getting the index of.
+   indexOf() takes two arguments:
+   1.The search value - the string we are searching for
+   2.The starting index - the index from where we are to start the search. This is optional.
+   ...so indexOf(searchValue, startingIndex);
+
+
+
 
 
 
