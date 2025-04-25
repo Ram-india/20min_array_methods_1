@@ -1,10 +1,10 @@
-let sliceArr = ["birds","trees","fish","land","sea","boats"];
-let sliceArr1 = sliceArr.slice(-1);
-//console.log(sliceArr1);
+let sliceArr = ["birds","trees","fish","land"];
+let sliceArr1 = sliceArr.slice(-3,-1);
+// console.log(sliceArr1);
 
 let sliceArr2 = ["fire", "water", "ice", "steam", "sand", "grass"];
 let sliceArr3 = sliceArr2.slice(-5,-2);  
-//console.log(sliceArr3);
+// console.log(sliceArr3);
 
 
 //========= SLICE ===========//
@@ -16,7 +16,7 @@ let slicestr = "now,this string to be slicing";
 let slicestr1 = slicestr.slice(3,8);
 //console.log(slicestr1);
 
-//the slice method in javasscript is used to extract a section of an array or srting and returns a new array or string without modifying original array.
+//the slice method in javasscript is used to extract a section of an array or string and returns a new array or string without modifying original array.
 
 //====== slice methode common use cases ======//
 
@@ -54,8 +54,8 @@ let removeIndex = numberArr.slice(0, indexToRemove).concat(numberArr.slice(index
 
 let paragraph = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
 
-let subSet = paragraph.slice(0,100);
-//console.log(subSet);
+let subSet = paragraph.slice(0,10);
+// console.log(subSet);
 
 //substring() : this method same as the slice(), with only differnce being that it can't accept only negative values
 
@@ -70,7 +70,7 @@ let substring = paragraph.substring(0, 10);
 // then it displays all of the characters after the starting position.
 
 let strings = "This is the end of week one"
-let stringAns = strings.substr(-1);
+let stringAns = strings.substr(3,6);
 console.log(stringAns);
 
 //1. i need out only?

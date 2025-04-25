@@ -19,6 +19,7 @@ const domain = email.split("@");
 // console.log(domain.length); // Output: example.com
 // console.log(`user name is : ${domain[0]}`); // Output: example.com
 // console.log(`Domain name is: ${domain[1]}`); // Output: example.com
+console.log(domain);
 
 // Extracting date from string
 
@@ -42,7 +43,7 @@ for(let i = 0; i < dob.length; i++){
 
 let title = "This is a sample title";
 const slug = title.toLowerCase().split(" ").join("-");
-console.log(slug);
+// console.log(slug);
 
 
 //limiting number of splits
@@ -80,5 +81,5 @@ const reverseArr = reverseString.split("").reverse().join("");
 let challenge = "goshgoshgoshgoshgoshgoshgoshgoshgosh";
 
 let challengeArr = challenge.split("sh",3);
-console.log(challengeArr);
+// console.log(challengeArr);
 
