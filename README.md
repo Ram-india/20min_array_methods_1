@@ -77,7 +77,7 @@
 
 ## 7) Day-07:- String(), toString(), toFixed(), Number(), parseFloat(), parseInt()
 
-   # toString() and String();
+   ## toString() and String();
 
 
      * toString() AND String() both convert a number to a string.
