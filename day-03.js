@@ -36,7 +36,7 @@ let lastElement = numberArr.slice(-1);
 // console.log(firstElement);
 // console.log(lastElement);
 
-//4.Remnoving elments at specific indices
+//4.Removing elments at specific indices
 
 let indexToRemove = 3;
 let removeIndex = numberArr.slice(0, indexToRemove).concat(numberArr.slice(indexToRemove + 1));

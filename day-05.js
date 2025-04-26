@@ -4,7 +4,7 @@ var noArray = ["one", "two", "three", "four", "five", "six"];
 
 let noArray1 = noArray.shift()
 console.log(noArray);
-noArray.unshift("one");
+noArray.unshift();
 console.log(noArray);
 
 //pop

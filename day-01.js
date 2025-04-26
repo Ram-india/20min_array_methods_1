@@ -50,8 +50,8 @@ const slug = title.toLowerCase().split(" ").join("-");
 
 let text = "apple,jackfriut,pomogranet,pinapple";
 
-let friuts = text.split(",", 1);
-// console.log(friuts);
+let friuts = text.split(",", 2);
+ console.log(friuts);
 
 //=== Handling empty string ===//
 
