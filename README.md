@@ -77,25 +77,25 @@
 
 ## 7) Day-07:- String(), toString(), toFixed(), Number(), parseFloat(), parseInt()
 
-   ## toString() and String();
+   ### toString() and String();
 
 
      * toString() AND String() both convert a number to a string.
 
 
-   # toFixed();
+   ### toFixed();
 
 
      * toFixed() does the same as toString() but it returns the string with a set number of decimals that you would pass in as an argument.
      * The most widely used is the money format which is two decimal places.
 
-   # Number();
+   ### Number();
 
 
      * This is by far the simplest and does the opposite of String(). 
 
 
-   # parseInt()
+   ### parseInt()
       
       * parseInt() parses a string and returns a whole number
       
@@ -103,18 +103,18 @@
    
 
 
-   # parseFloat();
+   ### parseFloat();
       
       * parseFloat() parses a string and returns a number
 
-   # ===== Number to string =======
+   ### ===== Number to string =======
 
       * toString(); - converts a number to a string
       * String(); - converts a number to a string
       * toFixed(); - converts a number to a string with a parameter to set number of decimal places
 
 
-   # =======String to number ========
+   ### =======String to number ========
 
       * Number(); - converts a string to a number
       * parseInt(); - parses a string and returns a number that is rounded down.
