@@ -120,6 +120,26 @@
       * parseInt(); - parses a string and returns a number that is rounded down.
       * parseFloat(); - parses a string and returns a number that keeps its decimal places (if it has them).
 
+## 8) Day-08:- Math.round(), Math.ceil(), Math.foor(), Math.max(), Math.min()
+
+   * Math is a built-in JavaScript object that allows you to perform mathematical tasks on numbers.
+
+
+
+   * The Math.round() method returns the value of a number rounded to the nearest integer.
+
+   * Math.ceil() returns a value rounded up to its nearest integer.
+
+   * Math.floor() returns a value rounded down to its nearest integer.
+
+
+   * Math.min() and Math.max():
+
+      1) The min() and max() methods do just what they suggest: They return either the lowest number of
+
+      2) the numbers passed to it (min) or the largest number of the numbers passed to it (max).
+
+
 
 
 
