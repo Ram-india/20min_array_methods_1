@@ -120,6 +120,8 @@
       * parseInt(); - parses a string and returns a number that is rounded down.
       * parseFloat(); - parses a string and returns a number that keeps its decimal places (if it has them).
 
+
+
 ## 8) Day-08:- Math.round(), Math.ceil(), Math.foor(), Math.max(), Math.min()
 
    * Math is a built-in JavaScript object that allows you to perform mathematical tasks on numbers.
@@ -138,6 +140,35 @@
       1) The min() and max() methods do just what they suggest: They return either the lowest number of
 
       2) the numbers passed to it (min) or the largest number of the numbers passed to it (max).
+
+
+## 9) Day-09:- forEach()
+
+   * The forEach method executes a provided function once for each array element.
+
+   *The forEach() method does not actually return anything but 'undefined.' It mutates each array element and is done, discarding the return value.
+
+
+## 10) Day-10:- map()
+
+   * The map() method creates a new array with the results of calling a function for every array element.
+
+   * That sounds sort of like the forEach method right? Well, there is a subtle, yet important, difference.
+      The forEach() method does not actually return anything but 'undefined.' It mutates each array element
+      and is done, discarding the return value. An example may be something like iterating over each array
+      element and saving the mutated values to a database....and done.
+   * On the other hand, the map() method iterates over an array, transforms each element of the array, and returns a new array with the transformed values!! This      new  array is the same size and does not discard any element like filter() method does.
+
+   * Now what parameters do you think the map() method uses? Take a guess. You got it:
+      1) element - the current element being processed in the array.
+      2) index - the array index of the current element.
+      3) arr - the original array object
+   
+   ### Important Recap
+
+   * The difference between map() and forEach() is that map actually returns something (a new array), while the forEach() method returns nothing (undefined).
+
+   * This is key. Once you have that, just remember that map() iterates over an array, calling a function foreach element, and returning the transformed elements into a new array of the same size.
 
 
 
